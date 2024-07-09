@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 
 function App () {
@@ -19,6 +20,18 @@ function App () {
     }
 
   }
+  /*
+  // const city = 'London'
+  const city2 = 'London'
+  if (mockWeatherData[`${city2}`]) {
+    console.log(mockWeatherData[`${city2}`])
+  } else {
+    console.log('No existe')
+  }
+  */
+  
+  const [search, setSearch] = useState('')
+
   return (
     <div>
       <input type='text' id='citySearch' placeholder='Search for a city...' />
