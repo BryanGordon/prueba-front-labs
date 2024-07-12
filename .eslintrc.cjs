@@ -19,6 +19,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'quote-props': 'off'
+    'quote-props': 'off',
+    'react/prop-types': 'off',
+    'react-hooks/exhaustive-deps': 'off'
   },
 }
